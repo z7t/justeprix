@@ -1,0 +1,81 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+body {
+  background: url("philippebg.png");
+  background-size: 4rem;
+}
+
+header {
+  padding: 1rem;
+}
+
+header img {
+  width: 5rem;
+}
+
+main img {
+  max-width: 10rem;
+  border: 2px solid;
+  border-radius: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > * {
+  margin-left: 3rem;
+}
+
+h1 {
+  border: 2px solid black;
+  border-bottom: none;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 1rem 4rem;
+  background: #eee;
+}
+
+label,
+button {
+  display: block;
+}
+
+input {
+  margin-left: 1ch;
+}
+
+form {
+  background: white;
+  padding: 3rem;
+  padding-top: 3rem;
+  border: 2px solid;
+  border-radius: 1rem;
+}
+
+form > * + * {
+  margin-top: 1.25rem;
+}
+
+.input-group > * + * {
+  margin-top: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  margin-top: 2rem;
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
